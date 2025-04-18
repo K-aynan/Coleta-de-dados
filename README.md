@@ -1,5 +1,8 @@
 ### Esse código em Python faz o seguinte:
 
+### instale pacote Requests:
+`pip install Requests`
+
 Importa a biblioteca requests: usada para fazer requisições HTTP, ou seja, acessar páginas da web programaticamente.
 
 Faz uma requisição GET para o site da InfoMoney na página do índice Ibovespa:
