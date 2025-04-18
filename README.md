@@ -1,4 +1,4 @@
-### Esse código em Python faz o seguinte:
+### Arquivo coleta_dados em Python faz o seguinte:
 
 ### instale pacote Requests:
 `pip install Requests`
