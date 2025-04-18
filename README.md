@@ -18,3 +18,16 @@ O conteúdo está em response.text, e [:600] mostra só o começo para não impr
 Em resumo:
 Esse script acessa a página do índice Ibovespa no site InfoMoney e mostra uma prévia do código-fonte HTML da página. 
 Isso pode ser usado como parte de um web scraping para extrair dados financeiros, por exemplo.
+
+### Arquivo conversor em Python faz o seguinte:
+
+Importa `requests` e `BeautifulSoup`.
+
+Desativa avisos de SSL.
+
+Faz GET em `https://books.toscrape.com/`.
+
+Converte o HTML em objeto `BeautifulSoup`.
+
+Imprime os primeiros 2000 caracteres do HTML “bonitinho” (com `prettify()`).
+
