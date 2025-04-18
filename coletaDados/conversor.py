@@ -10,3 +10,5 @@ requisicao = requests.get(url)
 extracao = BeautifulSoup(requisicao.text, 'html.parser')
 
 print(extracao.prettify()[:2000])
+
+
